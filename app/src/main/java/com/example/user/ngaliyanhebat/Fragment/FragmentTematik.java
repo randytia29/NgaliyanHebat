@@ -12,10 +12,11 @@ import android.view.ViewGroup;
 import com.example.user.ngaliyanhebat.BringinBerseriActivity;
 import com.example.user.ngaliyanhebat.R;
 import com.example.user.ngaliyanhebat.SnackActivity;
+import com.example.user.ngaliyanhebat.SouvenirActivity;
 
 public class FragmentTematik extends Fragment {
 
-    CardView snack, bringinBerseri;
+    CardView snack, bringinBerseri, souvenir;
 
     @Nullable
     @Override
@@ -37,6 +38,15 @@ public class FragmentTematik extends Fragment {
             public void onClick(View v) {
                 Intent intentBringinBerseri = new Intent(getActivity(), BringinBerseriActivity.class);
                 startActivity(intentBringinBerseri);
+            }
+        });
+
+        souvenir = (CardView) v.findViewById(R.id.kampung_souvenir);
+        souvenir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentSouvenir = new Intent(getActivity(), SouvenirActivity.class);
+                startActivity(intentSouvenir);
             }
         });
 

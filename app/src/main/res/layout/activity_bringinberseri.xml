@@ -55,20 +55,4 @@
         android:text="Kampung Bringin Berseri"
         android:textSize="15sp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:text="Contact Person:"
-        android:textSize="15sp" />
-
-    <TextView
-        android:id="@+id/telponSnack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="089697177144 - Bu Subur"
-        android:textColor="#2979ff"
-        android:textSize="15sp" />
 </LinearLayout>

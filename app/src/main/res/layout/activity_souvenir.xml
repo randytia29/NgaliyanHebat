@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SnackActivity">
+    tools:context=".SouvenirActivity">
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -22,28 +22,28 @@
                 android:layout_height="250dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/snack1" />
+                android:src="@drawable/souvenir1" />
 
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="250dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/snack2" />
+                android:src="@drawable/souvenir2" />
 
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="250dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/snack3" />
+                android:src="@drawable/souvenir3" />
 
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="250dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/snack4" />
+                android:src="@drawable/souvenir4" />
 
         </LinearLayout>
     </HorizontalScrollView>
@@ -53,23 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:text="Kampung Snack Mayangsari"
+        android:text="Kampung Souvenir"
         android:textSize="15sp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:text="Contact Person:"
-        android:textSize="15sp" />
-
-    <TextView
-        android:id="@+id/telponSnack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="089697177144 - Bu Subur"
-        android:textColor="#2979ff"
-        android:textSize="15sp" />
 </LinearLayout>
