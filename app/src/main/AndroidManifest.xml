@@ -21,13 +21,28 @@
         <activity
             android:name=".SnackActivity"
             android:label="Kampung Snack Mayangsari" />
-        <activity android:name=".MainActivity" />
         <activity
             android:name=".BringinBerseriActivity"
             android:label="Kampung Bringin Berseri" />
         <activity
             android:name=".SouvenirActivity"
             android:label="Kampung Souvenir" />
+        <activity
+            android:name=".TamanLeleActivity"
+            android:label="Taman Lele" />
+        <activity
+            android:name=".LembahKalipancurActivity"
+            android:label="Lembah Kalipancur" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".TematikActivity"
+            android:label="Kampung Tematik" />
+        <activity
+            android:name=".WisataActivity"
+            android:label="Wisata" />
+        <activity
+            android:name=".KulinerActivity"
+            android:label="Kuliner" />
     </application>
 
 </manifest>

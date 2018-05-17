@@ -1,11 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
-    <RelativeLayout
-        android:id="@+id/frame"
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_plus"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="25dp"
+        android:backgroundTint="#E53935"
+        android:elevation="6dp"
+        android:src="@drawable/baseline_toys_white_48"
+        app:pressedTranslationZ="12dp" />
 
-</FrameLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_tematik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="105dp"
+        android:backgroundTint="#5E35B1"
+        android:elevation="6dp"
+        android:src="@drawable/baseline_palette_white_48"
+        android:visibility="invisible"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_wisata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="#039BE5"
+        android:elevation="6dp"
+        android:src="@drawable/baseline_local_see_white_48"
+        android:visibility="invisible"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_kuliner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="105dp"
+        android:layout_marginRight="25dp"
+        android:backgroundTint="#43A047"
+        android:elevation="6dp"
+        android:src="@drawable/baseline_restaurant_menu_white_48"
+        android:visibility="invisible"
+        app:pressedTranslationZ="12dp" />
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WisataActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/tamanlele"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tamanlele1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/lembahklp"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lembahklp1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/image2"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/image3"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
