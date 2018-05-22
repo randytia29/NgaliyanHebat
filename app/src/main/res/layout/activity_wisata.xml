@@ -17,13 +17,28 @@
             android:orientation="vertical">
 
             <com.joooonho.SelectableRoundedImageView
-                android:id="@+id/tamanlele"
+                android:id="@+id/indian"
                 android:layout_width="350dp"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
+                android:foreground="?selectableItemBackground"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tamanlele1"
+                android:src="@drawable/indian1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/kapal"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:foreground="?selectableItemBackground"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kapal1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
                 app:sriv_right_bottom_corner_radius="16dip"
@@ -35,6 +50,7 @@
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
+                android:foreground="?selectableItemBackground"
                 android:scaleType="centerCrop"
                 android:src="@drawable/lembahklp1"
                 app:sriv_left_bottom_corner_radius="48dip"
@@ -43,26 +59,71 @@
                 app:sriv_right_top_corner_radius="0dip" />
 
             <com.joooonho.SelectableRoundedImageView
-                android:id="@+id/image2"
+                android:id="@+id/tamanlele"
                 android:layout_width="350dp"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
+                android:foreground="?selectableItemBackground"
                 android:scaleType="centerCrop"
-                android:src="@drawable/image1"
+                android:src="@drawable/tamanlele1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
                 app:sriv_right_bottom_corner_radius="16dip"
                 app:sriv_right_top_corner_radius="0dip" />
 
             <com.joooonho.SelectableRoundedImageView
-                android:id="@+id/image3"
+                android:id="@+id/margasatwa"
                 android:layout_width="350dp"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
+                android:foreground="?selectableItemBackground"
                 android:scaleType="centerCrop"
-                android:src="@drawable/image1"
+                android:src="@drawable/margasatwa1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/karangjoho"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:foreground="?selectableItemBackground"
+                android:scaleType="centerCrop"
+                android:src="@drawable/karangjoho1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/bahalian"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:foreground="?selectableItemBackground"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bahalian1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/kaliancar"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:foreground="?selectableItemBackground"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kaliancar1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
                 app:sriv_right_bottom_corner_radius="16dip"

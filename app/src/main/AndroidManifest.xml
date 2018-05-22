@@ -43,6 +43,24 @@
         <activity
             android:name=".KulinerActivity"
             android:label="Kuliner" />
+        <activity
+            android:name=".IndianActivity"
+            android:label="Kampung Indian Panorama" />
+        <activity
+            android:name=".KapalActivity"
+            android:label="Masjid Kapal " />
+        <activity
+            android:name=".MargasatwaActivity"
+            android:label="Kebun Binatang Mangkang" />
+        <activity
+            android:name=".KarangjohoActivity"
+            android:label="Air Terjun Karangjoho" />
+        <activity
+            android:name=".BahalianActivity"
+            android:label="Bah Alian" />
+        <activity
+            android:name=".KaliancarActivity"
+            android:label="Sendang Kaliancar" />
     </application>
 
 </manifest>

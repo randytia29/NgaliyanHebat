@@ -24,11 +24,6 @@ public class SnackActivity extends AppCompatActivity {
         fabSnackContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "089697177144", null));
-                startActivity(intent);
-                */
-
                 MyCustomAlertDialog();
             }
         });

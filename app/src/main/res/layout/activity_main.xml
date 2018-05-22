@@ -43,7 +43,7 @@
         android:layout_marginRight="80dp"
         android:backgroundTint="#039BE5"
         android:elevation="6dp"
-        android:src="@drawable/baseline_local_see_white_48"
+        android:src="@drawable/baseline_beach_access_white_48"
         android:visibility="invisible"
         app:pressedTranslationZ="12dp" />
 
