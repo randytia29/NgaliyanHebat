@@ -20,47 +20,65 @@
         </activity>
         <activity
             android:name=".SnackActivity"
-            android:label="Kampung Snack Mayangsari" />
+            android:label="Kampung Snack Mayangsari"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".BringinBerseriActivity"
-            android:label="Kampung Bringin Berseri" />
+            android:label="Kampung Bringin Berseri"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SouvenirActivity"
-            android:label="Kampung Souvenir" />
+            android:label="Kampung Souvenir"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TamanLeleActivity"
-            android:label="Taman Lele" />
+            android:label="Taman Lele"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".LembahKalipancurActivity"
-            android:label="Lembah Kalipancur" />
-        <activity android:name=".MainActivity" />
+            android:label="Lembah Kalipancur"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".TematikActivity"
-            android:label="Kampung Tematik" />
+            android:label="Kampung Tematik"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".WisataActivity"
-            android:label="Wisata" />
+            android:label="Wisata"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".KulinerActivity"
-            android:label="Kuliner" />
+            android:label="Kuliner"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".IndianActivity"
-            android:label="Kampung Indian Panorama" />
+            android:label="Kampung Indian Panorama"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".KapalActivity"
-            android:label="Masjid Kapal " />
+            android:label="Masjid Kapal "
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MargasatwaActivity"
-            android:label="Kebun Binatang Mangkang" />
+            android:label="Kebun Binatang Mangkang"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".KarangjohoActivity"
-            android:label="Air Terjun Karangjoho" />
+            android:label="Air Terjun Karangjoho"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".BahalianActivity"
-            android:label="Bah Alian" />
+            android:label="Bah Alian"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".KaliancarActivity"
-            android:label="Sendang Kaliancar" />
+            android:label="Sendang Kaliancar"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

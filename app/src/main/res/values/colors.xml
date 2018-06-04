@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="active_dots">#FFFAFA</color>
+    <color name="inactive_dots">#83878B</color>
+
+    <color name="fab_main">#E53935</color>
+    <color name="fab_tematik">#5E35B1</color>
+    <color name="fab_wisata">#039BE5</color>
+    <color name="fab_kuliner">#43A047</color>
 </resources>

@@ -42,7 +42,7 @@
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/kampung_bringinberseri"
+                    android:id="@+id/kampung_jambu_kristal"
                     android:layout_width="115dp"
                     android:layout_height="115dp"
                     android:layout_marginLeft="30dp"
@@ -55,7 +55,7 @@
                         android:layout_width="130dp"
                         android:layout_height="130dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_home_black_24dp" />
+                        android:src="@drawable/kampung_jambu_kristal" />
                 </android.support.v7.widget.CardView>
             </LinearLayout>
 
@@ -84,7 +84,7 @@
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/kampung_snack5"
+                    android:id="@+id/kampun_criping"
                     android:layout_width="115dp"
                     android:layout_height="115dp"
                     android:layout_marginLeft="30dp"
@@ -97,7 +97,7 @@
                         android:layout_width="130dp"
                         android:layout_height="130dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/kampung_jambu_kristal" />
+                        android:src="@drawable/kampung_criping" />
                 </android.support.v7.widget.CardView>
             </LinearLayout>
 
@@ -109,7 +109,7 @@
                 android:orientation="horizontal">
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/kampung_snack6"
+                    android:id="@+id/kampung_bringinberseri"
                     android:layout_width="115dp"
                     android:layout_height="115dp"
                     android:layout_marginRight="30dp"
@@ -122,7 +122,7 @@
                         android:layout_width="130dp"
                         android:layout_height="130dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/kampung_criping" />
+                        android:src="@drawable/ic_home_black_24dp" />
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
@@ -138,48 +138,6 @@
                     <ImageView
                         android:layout_width="130dp"
                         android:layout_height="130dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/ic_home_black_24dp" />
-                </android.support.v7.widget.CardView>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="25dp"
-                android:orientation="horizontal">
-
-                <android.support.v7.widget.CardView
-                    android:id="@+id/kampung_snack8"
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_marginRight="30dp"
-                    android:foreground="?selectableItemBackground"
-                    app:cardBackgroundColor="#c7c7c7"
-                    app:cardCornerRadius="15dp"
-                    app:cardElevation="3dp">
-
-                    <ImageView
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/ic_home_black_24dp" />
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:id="@+id/kampung_snack9"
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_marginLeft="30dp"
-                    android:foreground="?selectableItemBackground"
-                    app:cardBackgroundColor="#c7c7c7"
-                    app:cardCornerRadius="15dp"
-                    app:cardElevation="3dp">
-
-                    <ImageView
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
                         android:layout_gravity="center"
                         android:src="@drawable/ic_home_black_24dp" />
                 </android.support.v7.widget.CardView>
