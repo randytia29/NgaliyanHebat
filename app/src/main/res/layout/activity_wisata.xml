@@ -18,12 +18,7 @@
 
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/indian"
-                android:layout_width="350dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:foreground="?selectableItemBackground"
-                android:scaleType="centerCrop"
+                style="@style/list_wisata"
                 android:src="@drawable/indian1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
@@ -32,12 +27,7 @@
 
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/kapal"
-                android:layout_width="350dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:foreground="?selectableItemBackground"
-                android:scaleType="centerCrop"
+                style="@style/list_wisata"
                 android:src="@drawable/kapal1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
@@ -46,12 +36,7 @@
 
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/lembahklp"
-                android:layout_width="350dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:foreground="?selectableItemBackground"
-                android:scaleType="centerCrop"
+                style="@style/list_wisata"
                 android:src="@drawable/lembahklp1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
@@ -60,12 +45,7 @@
 
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/tamanlele"
-                android:layout_width="350dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:foreground="?selectableItemBackground"
-                android:scaleType="centerCrop"
+                style="@style/list_wisata"
                 android:src="@drawable/tamanlele1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
@@ -74,12 +54,7 @@
 
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/margasatwa"
-                android:layout_width="350dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:foreground="?selectableItemBackground"
-                android:scaleType="centerCrop"
+                style="@style/list_wisata"
                 android:src="@drawable/margasatwa1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
@@ -88,12 +63,7 @@
 
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/karangjoho"
-                android:layout_width="350dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:foreground="?selectableItemBackground"
-                android:scaleType="centerCrop"
+                style="@style/list_wisata"
                 android:src="@drawable/karangjoho1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
@@ -102,12 +72,7 @@
 
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/bahalian"
-                android:layout_width="350dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:foreground="?selectableItemBackground"
-                android:scaleType="centerCrop"
+                style="@style/list_wisata"
                 android:src="@drawable/bahalian1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
@@ -116,13 +81,8 @@
 
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/kaliancar"
-                android:layout_width="350dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center"
+                style="@style/list_wisata"
                 android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:foreground="?selectableItemBackground"
-                android:scaleType="centerCrop"
                 android:src="@drawable/kaliancar1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"

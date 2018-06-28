@@ -62,7 +62,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
                 android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
@@ -75,19 +74,20 @@
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
-                        android:src="@drawable/ic_home_black_24dp" />
+                        android:src="@drawable/ksnack1" />
 
                     <TextView
                         android:layout_width="195dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Produk" />
+                        android:text="Arem-Arem Sambal Goreng" />
 
                     <TextView
                         android:layout_width="85dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Harga" />
+                        android:paddingRight="20dp"
+                        android:text="Rp1.700" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -95,7 +95,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
                 android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
@@ -108,19 +107,20 @@
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
-                        android:src="@drawable/ic_home_black_24dp" />
+                        android:src="@drawable/ksnack2" />
 
                     <TextView
                         android:layout_width="195dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Produk" />
+                        android:text="Banana Roll" />
 
                     <TextView
                         android:layout_width="85dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Harga" />
+                        android:paddingRight="20dp"
+                        android:text="Rp1.700" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -128,7 +128,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
                 android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
@@ -141,19 +140,20 @@
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
-                        android:src="@drawable/ic_home_black_24dp" />
+                        android:src="@drawable/ksnack3" />
 
                     <TextView
                         android:layout_width="195dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Produk" />
+                        android:text="Bolu Kukus" />
 
                     <TextView
                         android:layout_width="85dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Harga" />
+                        android:paddingRight="20dp"
+                        android:text="Rp1.500" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -161,7 +161,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
                 android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
@@ -174,19 +173,20 @@
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
-                        android:src="@drawable/ic_home_black_24dp" />
+                        android:src="@drawable/ksnack4" />
 
                     <TextView
                         android:layout_width="195dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Produk" />
+                        android:text="Dadar Gulung" />
 
                     <TextView
                         android:layout_width="85dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Harga" />
+                        android:paddingRight="20dp"
+                        android:text="Rp1.500" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -194,7 +194,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
                 android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
@@ -207,21 +206,419 @@
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
-                        android:src="@drawable/ic_home_black_24dp" />
+                        android:src="@drawable/ksnack5" />
 
                     <TextView
                         android:layout_width="195dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Produk" />
+                        android:text="Getuk" />
 
                     <TextView
                         android:layout_width="85dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Harga" />
+                        android:paddingRight="20dp"
+                        android:text="Rp1.500" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack6" />
+
+                    <TextView
+                        android:layout_width="195dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Jadah" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="20dp"
+                        android:text="Rp2.500" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack7" />
+
+                    <TextView
+                        android:layout_width="195dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Kue Ku" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="20dp"
+                        android:text="Rp1.700" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack8" />
+
+                    <TextView
+                        android:layout_width="195dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Lemper" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="20dp"
+                        android:text="Rp2.500" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack9" />
+
+                    <TextView
+                        android:layout_width="195dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Martabak" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="20dp"
+                        android:text="Rp1.500" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack10" />
+
+                    <TextView
+                        android:layout_width="195dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Nogosari" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="20dp"
+                        android:text="Rp1.700" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack11" />
+
+                    <TextView
+                        android:layout_width="195dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Onde Onde Kacang Ijo" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="20dp"
+                        android:text="Rp1.700" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack12" />
+
+                    <TextView
+                        android:layout_width="195dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Pastel" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="20dp"
+                        android:text="Rp1.800" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack13" />
+
+                    <TextView
+                        android:layout_width="195dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Pie Buah" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="20dp"
+                        android:text="Rp2.300" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack14" />
+
+                    <TextView
+                        android:layout_width="195dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Putu Ayu" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="20dp"
+                        android:text="Rp1.500" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack15" />
+
+                    <TextView
+                        android:layout_width="195dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Risoles" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="20dp"
+                        android:text="Rp1.800" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack16" />
+
+                    <TextView
+                        android:layout_width="195dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Sosis Solo" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="20dp"
+                        android:text="Rp1.500" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack17" />
+
+                    <TextView
+                        android:layout_width="195dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Tahu Bakso" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="20dp"
+                        android:text="Rp1.800" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 
@@ -235,7 +632,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:layout_marginBottom="25dp"
+            android:layout_marginBottom="55dp"
             android:layout_marginRight="25dp"
             android:src="@drawable/baseline_phone_white_48"
             app:backgroundTint="@color/fab_tematik"

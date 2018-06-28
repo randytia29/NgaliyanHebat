@@ -9,7 +9,9 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        tools:ignore="UselessParent">
 
         <TableRow>
 
@@ -21,65 +23,43 @@
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
-                android:src="@drawable/pesonangaliyanhebat" />
+                android:src="@drawable/pesonangaliyanhebat"
+                tools:ignore="ContentDescription" />
         </TableRow>
 
-        <TableRow android:gravity="center">
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:gravity="center">
 
             <android.support.design.widget.FloatingActionButton
-                android:id="@+id/fab_plus"
-                android:layout_width="match_parent"
-                android:layout_height="55dp"
-                android:layout_marginBottom="20dp"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/baseline_toys_white_48"
-                app:backgroundTint="@color/fab_main"
+                android:id="@+id/fab_tematik"
+                style="@style/fab_main"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="65dp"
+                android:src="@drawable/baseline_palette_white_48"
+                app:backgroundTint="@color/fab_tematik"
                 app:elevation="6dp"
-                app:pressedTranslationZ="12dp" />
-        </TableRow>
-
-        <TableRow android:gravity="center">
-
-            <android.support.design.widget.FloatingActionButton
-                android:id="@+id/fab_kuliner"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:layout_marginBottom="20dp"
-                android:layout_marginRight="70dp"
-                android:layout_marginTop="20dp"
-                android:layout_weight="1"
-                android:src="@drawable/baseline_restaurant_menu_white_48"
-                android:visibility="invisible"
-                app:backgroundTint="@color/fab_kuliner"
-                app:elevation="6dp"
-                app:pressedTranslationZ="12dp" />
+                app:pressedTranslationZ="12dp"
+                tools:ignore="RtlHardcoded" />
 
             <android.support.design.widget.FloatingActionButton
                 android:id="@+id/fab_wisata"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:layout_marginBottom="20dp"
-                android:layout_marginTop="40dp"
-                android:layout_weight="1"
+                style="@style/fab_main"
                 android:src="@drawable/wisata"
-                android:visibility="invisible"
                 app:backgroundTint="@color/fab_wisata"
                 app:elevation="6dp"
                 app:pressedTranslationZ="12dp" />
 
             <android.support.design.widget.FloatingActionButton
-                android:id="@+id/fab_tematik"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:layout_marginBottom="20dp"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="20dp"
-                android:layout_weight="1"
-                android:src="@drawable/baseline_palette_white_48"
-                android:visibility="invisible"
-                app:backgroundTint="@color/fab_tematik"
+                android:id="@+id/fab_kuliner"
+                style="@style/fab_main"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/baseline_restaurant_menu_white_48"
+                app:backgroundTint="@color/fab_kuliner"
                 app:elevation="6dp"
-                app:pressedTranslationZ="12dp" />
+                app:pressedTranslationZ="12dp"
+                tools:ignore="RtlHardcoded" />
 
         </TableRow>
     </TableLayout>

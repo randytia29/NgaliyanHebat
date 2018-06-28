@@ -10,11 +10,12 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <LinearLayout
@@ -26,36 +27,36 @@
 
                 <android.support.v7.widget.CardView
                     android:id="@+id/kampung_snack"
-                    android:layout_width="115dp"
-                    android:layout_height="115dp"
+                    style="@style/card_view_tematik"
                     android:layout_marginRight="30dp"
-                    android:foreground="?selectableItemBackground"
                     app:cardBackgroundColor="@color/white"
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="3dp">
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
 
                     <ImageView
                         android:layout_width="130dp"
                         android:layout_height="130dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/kampung_snack" />
+                        android:src="@drawable/kampung_snack"
+                        tools:ignore="ContentDescription" />
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
                     android:id="@+id/kampung_jambu_kristal"
-                    android:layout_width="115dp"
-                    android:layout_height="115dp"
+                    style="@style/card_view_tematik"
                     android:layout_marginLeft="30dp"
-                    android:foreground="?selectableItemBackground"
                     app:cardBackgroundColor="@color/white"
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="3dp">
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
 
                     <ImageView
                         android:layout_width="130dp"
                         android:layout_height="130dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/kampung_jambu_kristal" />
+                        android:src="@drawable/kampung_jambu_kristal"
+                        tools:ignore="ContentDescription" />
                 </android.support.v7.widget.CardView>
             </LinearLayout>
 
@@ -68,36 +69,36 @@
 
                 <android.support.v7.widget.CardView
                     android:id="@+id/kampung_souvenir"
-                    android:layout_width="115dp"
-                    android:layout_height="115dp"
+                    style="@style/card_view_tematik"
                     android:layout_marginRight="30dp"
-                    android:foreground="?selectableItemBackground"
                     app:cardBackgroundColor="@color/white"
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="3dp">
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
 
                     <ImageView
                         android:layout_width="130dp"
                         android:layout_height="130dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/kampung_souvenir" />
+                        android:src="@drawable/kampung_souvenir"
+                        tools:ignore="ContentDescription" />
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/kampun_criping"
-                    android:layout_width="115dp"
-                    android:layout_height="115dp"
+                    android:id="@+id/kampung_criping"
+                    style="@style/card_view_tematik"
                     android:layout_marginLeft="30dp"
-                    android:foreground="?selectableItemBackground"
                     app:cardBackgroundColor="@color/white"
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="3dp">
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
 
                     <ImageView
                         android:layout_width="130dp"
                         android:layout_height="130dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/kampung_criping" />
+                        android:src="@drawable/kampung_criping"
+                        tools:ignore="ContentDescription" />
                 </android.support.v7.widget.CardView>
             </LinearLayout>
 
@@ -110,36 +111,78 @@
 
                 <android.support.v7.widget.CardView
                     android:id="@+id/kampung_bringinberseri"
-                    android:layout_width="115dp"
-                    android:layout_height="115dp"
+                    style="@style/card_view_tematik"
                     android:layout_marginRight="30dp"
-                    android:foreground="?selectableItemBackground"
                     app:cardBackgroundColor="@color/white"
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="3dp">
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
 
                     <ImageView
                         android:layout_width="130dp"
                         android:layout_height="130dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_home_black_24dp" />
+                        android:src="@drawable/kampung_bringin_berseri"
+                        tools:ignore="ContentDescription" />
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/kampung_snack7"
-                    android:layout_width="115dp"
-                    android:layout_height="115dp"
+                    android:id="@+id/kampung_sulampita"
+                    style="@style/card_view_tematik"
                     android:layout_marginLeft="30dp"
-                    android:foreground="?selectableItemBackground"
                     app:cardBackgroundColor="@color/white"
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="3dp">
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
 
                     <ImageView
                         android:layout_width="130dp"
                         android:layout_height="130dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_home_black_24dp" />
+                        android:src="@drawable/ic_home_black_24dp"
+                        tools:ignore="ContentDescription" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/kampung_olasi"
+                    style="@style/card_view_tematik"
+                    android:layout_marginRight="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kampung_olasi"
+                        tools:ignore="ContentDescription" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/kampung"
+                    style="@style/card_view_tematik"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_home_black_24dp"
+                        tools:ignore="ContentDescription" />
                 </android.support.v7.widget.CardView>
             </LinearLayout>
         </LinearLayout>

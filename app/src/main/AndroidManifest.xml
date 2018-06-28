@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/walikota"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/walikota"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -26,7 +26,8 @@
         <activity
             android:name=".BringinBerseriActivity"
             android:label="Kampung Bringin Berseri"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SouvenirActivity"
             android:label="Kampung Souvenir"
@@ -79,6 +80,24 @@
             android:name=".KaliancarActivity"
             android:label="Sendang Kaliancar"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".JambuKristalActivity"
+            android:label="Kampung Jambu Kristal"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CeripingActivity"
+            android:label="Kampung Ceriping"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SulamPitaActivity"
+            android:label="Kampung Sulam Pita"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RamahKeluargaActivity" />
+        <activity android:name=".SplashScreen2" />
+        <activity android:name=".SplashScreen3"></activity>
     </application>
 
 </manifest>

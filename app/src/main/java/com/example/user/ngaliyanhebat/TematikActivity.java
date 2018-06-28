@@ -8,7 +8,7 @@ import android.view.View;
 
 public class TematikActivity extends AppCompatActivity {
 
-    CardView snack, bringinBerseri, souvenir;
+    CardView snack, bringinBerseri, souvenir, jambuKris, ceriping, sulamPita;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +39,33 @@ public class TematikActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intentSouvenir = new Intent(TematikActivity.this, SouvenirActivity.class);
                 startActivity(intentSouvenir);
+            }
+        });
+
+        jambuKris = (CardView) findViewById(R.id.kampung_jambu_kristal);
+        jambuKris.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentJambuKris = new Intent(TematikActivity.this, JambuKristalActivity.class);
+                startActivity(intentJambuKris);
+            }
+        });
+
+        ceriping = (CardView) findViewById(R.id.kampung_criping);
+        ceriping.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentCeriping = new Intent(TematikActivity.this, CeripingActivity.class);
+                startActivity(intentCeriping);
+            }
+        });
+
+        sulamPita = (CardView) findViewById(R.id.kampung_sulampita);
+        sulamPita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentSulamPita = new Intent(TematikActivity.this, SulamPitaActivity.class);
+                startActivity(intentSulamPita);
             }
         });
 
