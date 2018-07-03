@@ -19,7 +19,7 @@
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/indian"
                 style="@style/list_wisata"
-                android:src="@drawable/indian1"
+                android:src="@drawable/wkampungindian1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
                 app:sriv_right_bottom_corner_radius="16dip"
@@ -28,7 +28,7 @@
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/kapal"
                 style="@style/list_wisata"
-                android:src="@drawable/kapal1"
+                android:src="@drawable/wmasjidkapal1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
                 app:sriv_right_bottom_corner_radius="16dip"

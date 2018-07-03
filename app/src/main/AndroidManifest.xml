@@ -58,7 +58,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".IndianActivity"
-            android:label="Kampung Indian Panorama"
+            android:label="Kampung Indian"
             android:screenOrientation="portrait" />
         <activity
             android:name=".KapalActivity"

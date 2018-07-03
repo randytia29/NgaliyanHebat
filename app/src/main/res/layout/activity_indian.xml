@@ -18,44 +18,49 @@
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/indian2" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkampungindian2" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="215dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/indian3" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkampungindian3" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="225dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/indian4" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkampungindian4" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="195dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/indian5" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkampungindian5" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="195dp"
                 android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="20dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/indian6" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkampungindian6" />
 
         </LinearLayout>
     </ScrollView>
