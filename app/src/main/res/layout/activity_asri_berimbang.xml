@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/white"
     android:fitsSystemWindows="true"
-    tools:context=".RamahKeluargaActivity">
+    tools:context=".AsriBerimbangActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
@@ -65,7 +65,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/kramahkeluarga1" />
+                android:src="@drawable/kasridanberimbang1" />
 
             <ImageView
                 android:layout_width="350dp"
@@ -74,7 +74,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/kramahkeluarga2" />
+                android:src="@drawable/kasridanberimbang2" />
 
             <ImageView
                 android:layout_width="350dp"
@@ -83,7 +83,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/kramahkeluarga3" />
+                android:src="@drawable/kasridanberimbang3" />
 
             <ImageView
                 android:layout_width="350dp"
@@ -92,7 +92,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/kramahkeluarga4" />
+                android:src="@drawable/kasridanberimbang4" />
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
@@ -102,7 +102,7 @@
         android:layout_height="match_parent">
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab_ramahkeluarga_contact"
+            android:id="@+id/fab_asriberimbang_contact"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

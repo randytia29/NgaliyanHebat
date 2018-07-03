@@ -12,24 +12,24 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-public class RamahKeluargaActivity extends AppCompatActivity {
+public class AsriBerimbangActivity extends AppCompatActivity {
 
-    FloatingActionButton fabRamahKeluargaContact;
+    FloatingActionButton fabAsriBerimbangContact;
     Dialog myDialog;
     Button simpan, keluar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ramah_keluarga);
+        setContentView(R.layout.activity_asri_berimbang);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         initCollapsingToolbar();
 
-        fabRamahKeluargaContact = (FloatingActionButton) findViewById(R.id.fab_ramahkeluarga_contact);
-        fabRamahKeluargaContact.setOnClickListener(new View.OnClickListener() {
+        fabAsriBerimbangContact = (FloatingActionButton) findViewById(R.id.fab_asriberimbang_contact);
+        fabAsriBerimbangContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 MyCustomAlertDialog();
@@ -38,7 +38,7 @@ public class RamahKeluargaActivity extends AppCompatActivity {
     }
 
     public void MyCustomAlertDialog() {
-        myDialog = new Dialog(RamahKeluargaActivity.this);
+        myDialog = new Dialog(AsriBerimbangActivity.this);
         myDialog.setContentView(R.layout.dialog_contact_snack);
         myDialog.setTitle("My Custom Dialog");
 
@@ -85,7 +85,7 @@ public class RamahKeluargaActivity extends AppCompatActivity {
                     scrollRange = appBarLayout.getTotalScrollRange();
                 }
                 if (scrollRange + verticalOffset == 0) {
-                    collapsingToolbar.setTitle("Kampung Ramah Keluarga");
+                    collapsingToolbar.setTitle("Kampung Asri Berimbang");
                     isShow = true;
                 } else if (isShow) {
                     collapsingToolbar.setTitle(" ");

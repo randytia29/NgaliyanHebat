@@ -8,7 +8,7 @@ import android.view.View;
 
 public class TematikActivity extends AppCompatActivity {
 
-    CardView snack, bringinBerseri, souvenir, jambuKris, ceriping, sulamPita;
+    CardView snack, bringinBerseri, souvenir, jambuKris, ceriping, sulamPita, ramahKeluarga, olahanGadung, asriBerimbang;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +66,33 @@ public class TematikActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intentSulamPita = new Intent(TematikActivity.this, SulamPitaActivity.class);
                 startActivity(intentSulamPita);
+            }
+        });
+
+        ramahKeluarga = (CardView) findViewById(R.id.kampung_ramah_keluarga);
+        ramahKeluarga.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentRamahKeluarga = new Intent(TematikActivity.this, RamahKeluargaActivity.class);
+                startActivity(intentRamahKeluarga);
+            }
+        });
+
+        olahanGadung = (CardView) findViewById(R.id.kampung_olahan_gadung);
+        olahanGadung.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentOlahanGadung = new Intent(TematikActivity.this, OlahanGadungActivity.class);
+                startActivity(intentOlahanGadung);
+            }
+        });
+
+        asriBerimbang = (CardView) findViewById(R.id.kampung_asri_berimbang);
+        asriBerimbang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentAsriBerimbang = new Intent(TematikActivity.this, AsriBerimbangActivity.class);
+                startActivity(intentAsriBerimbang);
             }
         });
 
