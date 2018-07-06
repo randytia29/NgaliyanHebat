@@ -16,6 +16,15 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Masjid 'As Safinatun Najah' yang sudah dikenal dengan Masjid Kapal berlokasi di Jl. Kyai Padak Kelurahan Podorejo. Masjid ini biasa digunakan sebagai gedung pertemuan dan tempat wisata karena bangunannya yang berbentuk kapal"
+                android:textSize="17sp" />
+
             <ImageView
                 android:layout_width="350dp"
                 android:layout_height="215dp"

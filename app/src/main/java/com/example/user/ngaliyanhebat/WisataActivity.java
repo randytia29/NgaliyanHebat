@@ -9,7 +9,7 @@ import com.joooonho.SelectableRoundedImageView;
 
 public class WisataActivity extends AppCompatActivity {
 
-    SelectableRoundedImageView tamanlele, lembahKlp, indian, kapal, margasatwa, karangjoho, bahalian, kaliancar;
+    SelectableRoundedImageView tamanlele, lembahKlp, indian, kapal, margasatwa, karangjoho, kaliancar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,15 +67,6 @@ public class WisataActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intentKarangjoho = new Intent(WisataActivity.this, KarangjohoActivity.class);
                 startActivity(intentKarangjoho);
-            }
-        });
-
-        bahalian = (SelectableRoundedImageView) findViewById(R.id.bahalian);
-        bahalian.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentBahalian = new Intent(WisataActivity.this, BahalianActivity.class);
-                startActivity(intentBahalian);
             }
         });
 

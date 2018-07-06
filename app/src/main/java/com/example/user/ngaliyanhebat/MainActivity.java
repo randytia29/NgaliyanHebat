@@ -7,21 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    FloatingActionButton fab_tematik, fab_wisata, fab_kuliner;
+    ImageView imageViewTematik, imageViewWisata, imageViewKuliner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        fab_tematik = (FloatingActionButton) findViewById(R.id.fab_tematik);
-        fab_wisata = (FloatingActionButton) findViewById(R.id.fab_wisata);
-        fab_kuliner = (FloatingActionButton) findViewById(R.id.fab_kuliner);
+        imageViewTematik = (ImageView) findViewById(R.id.imageView_tematik);
+        imageViewWisata = (ImageView) findViewById(R.id.imageView_wisata);
+        imageViewKuliner = (ImageView) findViewById(R.id.imageView_kuliner);
 
-        fab_tematik.setOnClickListener(new View.OnClickListener() {
+        imageViewTematik.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intentTematik = new Intent(MainActivity.this, TematikActivity.class);
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        fab_wisata.setOnClickListener(new View.OnClickListener() {
+        imageViewWisata.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intentWisata = new Intent(MainActivity.this, WisataActivity.class);
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        fab_kuliner.setOnClickListener(new View.OnClickListener() {
+        imageViewKuliner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intentKuliner = new Intent(MainActivity.this, KulinerActivity.class);

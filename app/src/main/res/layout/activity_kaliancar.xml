@@ -18,44 +18,49 @@
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="195dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/kaliancar2" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkaliancar2" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="195dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/kaliancar3" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkaliancar3" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="225dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/kaliancar4" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkaliancar4" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="215dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/kaliancar5" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkaliancar5" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="265dp"
                 android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="20dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/kaliancar6" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkaliancar6" />
 
         </LinearLayout>
     </ScrollView>

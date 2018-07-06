@@ -16,6 +16,15 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/deskripsi_kampung_indian"
+                android:textSize="17sp" />
+
             <ImageView
                 android:layout_width="350dp"
                 android:layout_height="200dp"
@@ -61,36 +70,8 @@
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="20dp"
                 android:src="@drawable/wkampungindian6" />
-
         </LinearLayout>
     </ScrollView>
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_plus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="25dp"
-        android:layout_marginRight="25dp"
-        android:src="@drawable/baseline_toys_white_48"
-        app:backgroundTint="@color/fab_wisata"
-        app:elevation="6dp"
-        app:pressedTranslationZ="12dp" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_info_taman_lele"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="85dp"
-        android:layout_marginRight="25dp"
-        android:src="@drawable/baseline_info_white_48"
-        android:visibility="invisible"
-        app:backgroundTint="@color/fab_wisata"
-        app:elevation="6dp"
-        app:pressedTranslationZ="12dp" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab_indian_map"
@@ -98,10 +79,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="140dp"
+        android:layout_marginBottom="55dp"
         android:layout_marginRight="25dp"
         android:src="@drawable/baseline_place_white_48"
-        android:visibility="invisible"
         app:backgroundTint="@color/fab_wisata"
         app:elevation="6dp"
         app:pressedTranslationZ="12dp" />

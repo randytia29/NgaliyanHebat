@@ -37,7 +37,7 @@
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/lembahklp"
                 style="@style/list_wisata"
-                android:src="@drawable/lembahklp1"
+                android:src="@drawable/wlembahklp1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
                 app:sriv_right_bottom_corner_radius="16dip"
@@ -46,7 +46,7 @@
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/tamanlele"
                 style="@style/list_wisata"
-                android:src="@drawable/tamanlele1"
+                android:src="@drawable/wtamanlele1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
                 app:sriv_right_bottom_corner_radius="16dip"
@@ -55,7 +55,7 @@
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/margasatwa"
                 style="@style/list_wisata"
-                android:src="@drawable/margasatwa1"
+                android:src="@drawable/wmargasatwa1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
                 app:sriv_right_bottom_corner_radius="16dip"
@@ -64,16 +64,7 @@
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/karangjoho"
                 style="@style/list_wisata"
-                android:src="@drawable/karangjoho1"
-                app:sriv_left_bottom_corner_radius="48dip"
-                app:sriv_left_top_corner_radius="16dip"
-                app:sriv_right_bottom_corner_radius="16dip"
-                app:sriv_right_top_corner_radius="0dip" />
-
-            <com.joooonho.SelectableRoundedImageView
-                android:id="@+id/bahalian"
-                style="@style/list_wisata"
-                android:src="@drawable/bahalian1"
+                android:src="@drawable/wkarangjoho1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
                 app:sriv_right_bottom_corner_radius="16dip"
@@ -83,7 +74,7 @@
                 android:id="@+id/kaliancar"
                 style="@style/list_wisata"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/kaliancar1"
+                android:src="@drawable/wkaliancar1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
                 app:sriv_right_bottom_corner_radius="16dip"

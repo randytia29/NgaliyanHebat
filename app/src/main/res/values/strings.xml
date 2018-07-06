@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Pesona Ngaliyan Hebat</string>
+    <string name="deskripsi_kampung_indian">Kampung Indian berlokasi di wilayah RW 19
+        Kelurahan Bringin. Disini menjadi spot
+        foto terbaik dengan suasana bertemakan kampung
+        suku indian yang lengkap dengan tenda, api
+        unggun dan atribut suku indian yang dapat
+        disediakan secara gratis setiap hari minggu</string>
+    <string name="deskripsi_masjid_kapal"></string>
 </resources>

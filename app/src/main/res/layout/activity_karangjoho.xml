@@ -18,36 +18,49 @@
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="195dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/karangjoho2" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkarangjoho2" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="195dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/karangjoho3" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkarangjoho3" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="195dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/karangjoho4" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkarangjoho4" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="195dp"
                 android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/karangjoho5" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkarangjoho5" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="235dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wkarangjoho6" />
 
         </LinearLayout>
     </ScrollView>

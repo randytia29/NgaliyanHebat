@@ -18,44 +18,49 @@
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="220dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/tamanlele2" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wtamanlele2" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="230dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/tamanlele3" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wtamanlele3" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="260dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/tamanlele4" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wtamanlele4" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="230dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/tamanlele5" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wtamanlele5" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="350dp"
+                android:layout_height="260dp"
                 android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="20dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:src="@drawable/tamanlele6" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wtamanlele6" />
 
         </LinearLayout>
     </ScrollView>
