@@ -61,11 +61,13 @@
         <activity
             android:name=".IndianActivity"
             android:label="Kampung Indian"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".KapalActivity"
             android:label="Masjid Kapal "
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MargasatwaActivity"
             android:label="Kebun Binatang Mangkang"
