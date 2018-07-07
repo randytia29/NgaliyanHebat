@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.user.ngaliyanhebat">
+    package="com.example.kecamatanngaliyan.pesonangaliyanhebat">
 
     <application
         android:allowBackup="true"
@@ -37,7 +37,8 @@
         <activity
             android:name=".TamanLeleActivity"
             android:label="Taman Lele"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LembahKalipancurActivity"
             android:label="Lembah Kalipancur"
@@ -71,11 +72,13 @@
         <activity
             android:name=".MargasatwaActivity"
             android:label="Kebun Binatang Mangkang"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".KarangjohoActivity"
-            android:label="Air Terjun Karangjoho"
-            android:screenOrientation="portrait" />
+            android:label="Curug Karang Joho"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".BahalianActivity"
             android:label="Bah Alian"
