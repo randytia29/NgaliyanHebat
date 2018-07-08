@@ -73,13 +73,30 @@
             <com.joooonho.SelectableRoundedImageView
                 android:id="@+id/kaliancar"
                 style="@style/list_wisata"
-                android:layout_marginBottom="10dp"
                 android:src="@drawable/wkaliancar1"
                 app:sriv_left_bottom_corner_radius="48dip"
                 app:sriv_left_top_corner_radius="16dip"
                 app:sriv_right_bottom_corner_radius="16dip"
                 app:sriv_right_top_corner_radius="0dip" />
 
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/kalipancuran"
+                style="@style/list_wisata"
+                android:src="@drawable/wkalipancuran1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/serendeng"
+                style="@style/list_wisata"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/wserendeng1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

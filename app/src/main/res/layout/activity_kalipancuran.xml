@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/white"
     android:fitsSystemWindows="true"
-    tools:context=".KaliancarActivity">
+    tools:context=".KalipancuranActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
@@ -32,7 +32,7 @@
                 android:id="@+id/backdrop"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/wkaliancar1"
+                android:background="@drawable/wkalipancuran1"
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
                 app:layout_collapseMode="parallax" />
@@ -63,7 +63,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
-                android:text="Sendang Kaliancar mempunyai dua sumber mata air diantaranya"
+                android:text="@string/deskripsi_sendang_kalipancur1"
                 android:textSize="17sp" />
 
             <TextView
@@ -72,81 +72,36 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
-                android:text="Sumber mata air Panguripan yang bermuara diatas"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:text="@string/deskripsi_sendang_kaliancar1"
-                android:textSize="17sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
-                android:text="Sumber mata air Pengasihan yang bermuara dibawah"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:text="@string/deskripsi_sendang_kaliancar2"
+                android:text="@string/deskripsi_sendang_kalipancur2"
                 android:textSize="17sp" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="195dp"
+                android:layout_height="235dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/wkaliancar2" />
+                android:src="@drawable/wkalipancuran2" />
 
             <ImageView
                 android:layout_width="350dp"
-                android:layout_height="195dp"
+                android:layout_height="250dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/wkaliancar3" />
+                android:src="@drawable/wkalipancuran3" />
 
             <ImageView
                 android:layout_width="350dp"
                 android:layout_height="225dp"
                 android:layout_gravity="center"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/wkaliancar4" />
-
-            <ImageView
-                android:layout_width="350dp"
-                android:layout_height="215dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/wkaliancar5" />
-
-            <ImageView
-                android:layout_width="350dp"
-                android:layout_height="265dp"
-                android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/wkaliancar6" />
+                android:src="@drawable/wkalipancuran4" />
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
@@ -156,7 +111,7 @@
         android:layout_height="match_parent">
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab_kaliancar_map"
+            android:id="@+id/fab_kalipancuran_map"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

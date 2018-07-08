@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kecamatanngaliyan.pesonangaliyanhebat">
+    package="com.hebat.kecamatanngaliyan.pesonangaliyanhebat">
 
     <application
         android:allowBackup="true"
@@ -86,7 +86,8 @@
         <activity
             android:name=".KaliancarActivity"
             android:label="Sendang Kaliancar"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".JambuKristalActivity"
             android:label="Kampung Jambu Kristal"
@@ -123,6 +124,16 @@
         <activity
             android:name=".AsriBerimbangActivity"
             android:label="Kampung Asri Berimbang"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KalipancuranActivity"
+            android:label="Sendang Kalipancuran"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SerendengActivity"
+            android:label="Sendang Serendeng"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
