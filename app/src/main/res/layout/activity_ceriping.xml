@@ -58,6 +58,53 @@
             android:layout_marginTop="12dp"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Kampung Salam Kerep merupakan salah satu wilayah di Kelurahan Gondoriyo yang mempunyai potensi lahan yang masih luas dimana penduduknya sebagian besar bekerja sebagai petani. Dipilihnya Kampung Salam Kerep sebagai kampung tematik karena dipandang mempunyai produk unggulan potensi usaha pembuatan tempe, pembuatan ceriping daun singkong, ceriping singkong dan pembuatan ceriping kulit pisang"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Lokasi"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Kampung Criping RW 03 Kelurahan Gondoriyo"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kceripingmain" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Info"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_criping_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="081325415735 - Bp Rudi"
+                android:textColor="#1976D2"
+                android:textSize="17sp" />
+
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
@@ -204,14 +251,14 @@
         android:layout_height="match_parent">
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab_ceriping_contact"
+            android:id="@+id/fab_ceriping_map"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_marginBottom="55dp"
             android:layout_marginRight="25dp"
-            android:src="@drawable/baseline_phone_white_48"
+            android:src="@drawable/baseline_place_white_48"
             app:backgroundTint="@color/fab_tematik"
             app:elevation="6dp"
             app:pressedTranslationZ="12dp" />

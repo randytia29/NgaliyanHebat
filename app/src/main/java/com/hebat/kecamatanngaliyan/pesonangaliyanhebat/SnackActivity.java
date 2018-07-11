@@ -1,6 +1,5 @@
 package com.hebat.kecamatanngaliyan.pesonangaliyanhebat;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.design.widget.AppBarLayout;
@@ -10,9 +9,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.widget.TextView;
 
 public class SnackActivity extends AppCompatActivity {
@@ -44,9 +40,9 @@ public class SnackActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse("https://plus.codes/6P4GX9JM+M6");
-                Intent lembahKalipancurIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                lembahKalipancurIntent.setPackage("com.google.android.apps.maps");
-                startActivity(lembahKalipancurIntent);
+                Intent intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                intent.setPackage("com.google.android.apps.maps");
+                startActivity(intent);
             }
         });
     }

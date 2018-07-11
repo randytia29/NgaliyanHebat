@@ -58,10 +58,67 @@
             android:layout_marginTop="12dp"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Kelurahan Wates memiliki Kampung Tematik Jambu Kristal, mengadopsi/terinspirasi kebun buah milik UPTD Dinas Pertanian yang dikelola oleh petani penggarap warga Kelurahan Wates (Kelompok Tani Sumber Raharjo)"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Warga membudidayakan jambu kristal ini dengan cara menanam di media tanam Pot besar. Jambu Kristal ini selain bisa dinikmati buahnya secara langsung juga dapat diolah menjadi manisan dan sirup jambu kristal"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Lokasi"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Kampung Jambu Kristal RT 03, 04, 05, 10 di RW 02, 08 Kelurahan Wates"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kjambukristalmain" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Info"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_jambukris_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="081901085472 - Bp Sariyani"
+                android:textColor="#1976D2"
+                android:textSize="17sp" />
+
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
@@ -113,6 +170,72 @@
                         android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:text="Manisan Jambu Kristal" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="15dp"
+                        android:text="Rp15.000/pcs" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/kjambukris3" />
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Sirup Jambu Kristal" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="15dp"
+                        android:text="Rp8.000/btl" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/kjambukris4" />
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
                         android:text="Pepaya California" />
 
                     <TextView
@@ -140,7 +263,7 @@
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
-                        android:src="@drawable/kjambukris3" />
+                        android:src="@drawable/kjambukris5" />
 
                     <TextView
                         android:layout_width="175dp"
@@ -173,7 +296,7 @@
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
-                        android:src="@drawable/kjambukris4" />
+                        android:src="@drawable/kjambukris6" />
 
                     <TextView
                         android:layout_width="175dp"
@@ -206,7 +329,7 @@
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
-                        android:src="@drawable/kjambukris5" />
+                        android:src="@drawable/kjambukris7" />
 
                     <TextView
                         android:layout_width="175dp"
@@ -231,14 +354,14 @@
         android:layout_height="match_parent">
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab_jambukris_contact"
+            android:id="@+id/fab_jambukris_map"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_marginBottom="55dp"
             android:layout_marginRight="25dp"
-            android:src="@drawable/baseline_phone_white_48"
+            android:src="@drawable/baseline_place_white_48"
             app:backgroundTint="@color/fab_tematik"
             app:elevation="6dp"
             app:pressedTranslationZ="12dp" />

@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/pesonangaliyanhebat"
+        android:icon="@drawable/icon_main"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/pesonangaliyanhebat"
+        android:roundIcon="@drawable/icon_main"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -42,7 +42,8 @@
         <activity
             android:name=".LembahKalipancurActivity"
             android:label="Lembah Kalipancur"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"

@@ -3,9 +3,12 @@ package com.hebat.kecamatanngaliyan.pesonangaliyanhebat;
 import android.app.Dialog;
 import android.content.Intent;
 import android.net.Uri;
+import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -13,28 +16,19 @@ import android.widget.Button;
 
 public class LembahKalipancurActivity extends AppCompatActivity {
 
-    FloatingActionButton fab_plus, fabLembahKalipancurMap, fab_info;
-    Animation fabOpen, fabClose, fabRClockwise, fabRAnticlockwise, fabOpen2, fabClose2;
-    boolean isOpen = false;
-    Dialog myDialog;
-    Button keluar;
+    FloatingActionButton fabLembahKalipancurMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lembah_kalipancur);
 
-        fab_plus = (FloatingActionButton) findViewById(R.id.fab_plus);
-        fab_info = (FloatingActionButton) findViewById(R.id.fab_info_taman_lele);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        initCollapsingToolbar();
+
         fabLembahKalipancurMap = (FloatingActionButton) findViewById(R.id.fab_lembahklp_map);
-
-        fabOpen = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_open3);
-        fabClose = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_close3);
-        fabRClockwise = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate_clockwise);
-        fabRAnticlockwise = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate_anticlockwise);
-        fabOpen2 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_open4);
-        fabClose2 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_close4);
-
         fabLembahKalipancurMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -44,53 +38,34 @@ public class LembahKalipancurActivity extends AppCompatActivity {
                 startActivity(lembahKalipancurIntent);
             }
         });
+    }
 
-        fab_plus.setOnClickListener(new View.OnClickListener() {
+    private void initCollapsingToolbar() {
+        final CollapsingToolbarLayout collapsingToolbar =
+                (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        collapsingToolbar.setTitle(" ");
+        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
+        appBarLayout.setExpanded(true);
+
+        // hiding & showing the title when toolbar expanded & collapsed
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            boolean isShow = false;
+            int scrollRange = -1;
+
             @Override
-            public void onClick(View v) {
-                if (isOpen) {
-                    fab_info.startAnimation(fabClose2);
-                    fabLembahKalipancurMap.startAnimation(fabClose2);
-                    fab_plus.startAnimation(fabRAnticlockwise);
-                    fab_info.setClickable(false);
-                    fabLembahKalipancurMap.setClickable(false);
-                    isOpen = false;
-                } else {
-                    fab_info.startAnimation(fabOpen);
-                    fabLembahKalipancurMap.startAnimation(fabOpen2);
-                    fab_plus.startAnimation(fabRClockwise);
-                    fab_info.setClickable(true);
-                    fabLembahKalipancurMap.setClickable(true);
-                    isOpen = true;
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                if (scrollRange == -1) {
+                    scrollRange = appBarLayout.getTotalScrollRange();
+                }
+                if (scrollRange + verticalOffset == 0) {
+                    collapsingToolbar.setTitle("Lembah Kalipancur");
+                    isShow = true;
+                } else if (isShow) {
+                    collapsingToolbar.setTitle(" ");
+                    isShow = false;
                 }
             }
         });
-
-        fab_info.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                MyCustomAlertDialog();
-            }
-        });
-    }
-
-    public void MyCustomAlertDialog() {
-        myDialog = new Dialog(LembahKalipancurActivity.this);
-        myDialog.setContentView(R.layout.dialog_info_taman_lele);
-        myDialog.setTitle("My Custom Dialog");
-
-        keluar = (Button) myDialog.findViewById(R.id.keluar);
-
-        keluar.setEnabled(true);
-
-        keluar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                myDialog.dismiss();
-            }
-        });
-
-        myDialog.show();
     }
 }
 

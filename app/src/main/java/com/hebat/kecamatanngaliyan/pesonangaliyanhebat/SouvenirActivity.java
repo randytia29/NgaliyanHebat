@@ -1,6 +1,5 @@
 package com.hebat.kecamatanngaliyan.pesonangaliyanhebat;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.design.widget.AppBarLayout;
@@ -10,61 +9,51 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
 public class SouvenirActivity extends AppCompatActivity {
 
-    FloatingActionButton fabSouvenirContact;
-    Dialog myDialog;
-    Button simpan, keluar;
+    FloatingActionButton fabSouvenirMap;
+    TextView textViewSouvenirContact1, textViewSouvenirContact2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_souvenir);
 
-        fabSouvenirContact = (FloatingActionButton) findViewById(R.id.fab_souvenir_contact);
-        fabSouvenirContact.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                MyCustomAlertDialog();
-            }
-        });
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         initCollapsingToolbar();
-    }
 
-    public void MyCustomAlertDialog() {
-        myDialog = new Dialog(SouvenirActivity.this);
-        myDialog.setContentView(R.layout.dialog_contact_souvenir);
-        myDialog.setTitle("My Custom Dialog");
-
-        simpan = (Button) myDialog.findViewById(R.id.simpan);
-        keluar = (Button) myDialog.findViewById(R.id.keluar);
-
-        simpan.setEnabled(true);
-        keluar.setEnabled(true);
-
-        simpan.setOnClickListener(new View.OnClickListener() {
+        textViewSouvenirContact1 = (TextView) findViewById(R.id.textview_souvenir_contact1);
+        textViewSouvenirContact1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "08156660851", null));
                 startActivity(intent);
-                myDialog.dismiss();
             }
         });
 
-        keluar.setOnClickListener(new View.OnClickListener() {
+        textViewSouvenirContact2 = (TextView) findViewById(R.id.textview_souvenir_contact2);
+        textViewSouvenirContact2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                myDialog.dismiss();
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "085950720860", null));
+                startActivity(intent);
             }
         });
 
-        myDialog.show();
+        fabSouvenirMap = (FloatingActionButton) findViewById(R.id.fab_souvenir_map);
+        fabSouvenirMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("https://plus.codes/6P5G2965+R9G");
+                Intent intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                intent.setPackage("com.google.android.apps.maps");
+                startActivity(intent);
+            }
+        });
     }
 
     private void initCollapsingToolbar() {

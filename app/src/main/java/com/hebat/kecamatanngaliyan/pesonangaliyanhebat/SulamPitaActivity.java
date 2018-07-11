@@ -15,10 +15,8 @@ import android.widget.TextView;
 
 public class SulamPitaActivity extends AppCompatActivity {
 
-    FloatingActionButton fabSnackContact;
-    Dialog myDialog;
-    TextView simpanSulamPita, simpanRajutMacrame;
-    Button keluar;
+    FloatingActionButton fabSulamPitaMap;
+    TextView textViewSulamPitaContact1, textViewSulamPitaContact2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,54 +28,34 @@ public class SulamPitaActivity extends AppCompatActivity {
 
         initCollapsingToolbar();
 
-        fabSnackContact = (FloatingActionButton) findViewById(R.id.fab_sulampita_contact);
-        fabSnackContact.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                MyCustomAlertDialog();
-            }
-        });
-    }
-
-    public void MyCustomAlertDialog() {
-        myDialog = new Dialog(SulamPitaActivity.this);
-        myDialog.setContentView(R.layout.dialog_contact_sulampita);
-        myDialog.setTitle("My Custom Dialog");
-
-        simpanSulamPita = (TextView) myDialog.findViewById(R.id.simpansulampita);
-        simpanRajutMacrame = (TextView) myDialog.findViewById(R.id.simpanrajutmacrame);
-        keluar = (Button) myDialog.findViewById(R.id.keluar);
-
-        simpanSulamPita.setEnabled(true);
-        simpanRajutMacrame.setEnabled(true);
-        keluar.setEnabled(true);
-
-        simpanSulamPita.setOnClickListener(new View.OnClickListener() {
+        textViewSulamPitaContact1 = (TextView) findViewById(R.id.textview_sulampita_contact1);
+        textViewSulamPitaContact1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "085225148150", null));
                 startActivity(intent);
-                myDialog.dismiss();
             }
         });
 
-        simpanRajutMacrame.setOnClickListener(new View.OnClickListener() {
+        textViewSulamPitaContact2 = (TextView) findViewById(R.id.textview_sulampita_contact2);
+        textViewSulamPitaContact2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "081326494187", null));
                 startActivity(intent);
-                myDialog.dismiss();
             }
         });
 
-        keluar.setOnClickListener(new View.OnClickListener() {
+        fabSulamPitaMap = (FloatingActionButton) findViewById(R.id.fab_sulampita_map);
+        fabSulamPitaMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                myDialog.dismiss();
+                Uri gmmIntentUri = Uri.parse("https://plus.codes/6P5G2965+R9G");
+                Intent intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                intent.setPackage("com.google.android.apps.maps");
+                startActivity(intent);
             }
         });
-
-        myDialog.show();
     }
 
     private void initCollapsingToolbar() {

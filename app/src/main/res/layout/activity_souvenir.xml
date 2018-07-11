@@ -58,6 +58,53 @@
             android:layout_marginTop="12dp"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Berbagai macam souvenir hasil kerajinan tangan sendiri disediakan disini. Dari bahan kain perca, rajut dan flanel yang biasa digunakan dalam produksinya"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Lokasi"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Kampung Souvenir RT 03 RW 04 Kelurahan Tambakaji"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ksouvenirmain" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Info"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_souvenir_contact1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="08156660851 - Bu Tien Tarsidi"
+                android:textColor="#1976D2"
+                android:textSize="17sp" />
+
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
@@ -441,6 +488,16 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
+            <TextView
+                android:id="@+id/textview_souvenir_contact2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="085950720860 - Bu Suparti"
+                android:textColor="#1976D2"
+                android:textSize="17sp" />
+
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
@@ -620,14 +677,14 @@
         android:layout_height="match_parent">
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab_souvenir_contact"
+            android:id="@+id/fab_souvenir_map"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_marginBottom="55dp"
             android:layout_marginRight="25dp"
-            android:src="@drawable/baseline_phone_white_48"
+            android:src="@drawable/baseline_place_white_48"
             app:backgroundTint="@color/fab_tematik"
             app:elevation="6dp"
             app:pressedTranslationZ="12dp" />

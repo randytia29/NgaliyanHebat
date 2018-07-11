@@ -1,6 +1,5 @@
 package com.hebat.kecamatanngaliyan.pesonangaliyanhebat;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.design.widget.AppBarLayout;
@@ -10,13 +9,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
 
 public class BringinBerseriActivity extends AppCompatActivity {
 
-    FloatingActionButton fabBringinBerseriContact;
-    Dialog myDialog;
-    Button simpan, keluar;
+    FloatingActionButton fabBringinBerserimap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,43 +24,16 @@ public class BringinBerseriActivity extends AppCompatActivity {
 
         initCollapsingToolbar();
 
-        fabBringinBerseriContact = (FloatingActionButton) findViewById(R.id.fab_bringinberseri_contact);
-        fabBringinBerseriContact.setOnClickListener(new View.OnClickListener() {
+        fabBringinBerserimap = (FloatingActionButton) findViewById(R.id.fab_bringinberseri_map);
+        fabBringinBerserimap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MyCustomAlertDialog();
-            }
-        });
-    }
-
-    public void MyCustomAlertDialog() {
-        myDialog = new Dialog(BringinBerseriActivity.this);
-        myDialog.setContentView(R.layout.dialog_contact_snack);
-        myDialog.setTitle("My Custom Dialog");
-
-        simpan = (Button) myDialog.findViewById(R.id.simpan);
-        keluar = (Button) myDialog.findViewById(R.id.keluar);
-
-        simpan.setEnabled(true);
-        keluar.setEnabled(true);
-
-        simpan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "089697177144", null));
+                Uri gmmIntentUri = Uri.parse("geo:0,0?q=Perumahan Taman Beringin Elok");
+                Intent intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                intent.setPackage("com.google.android.apps.maps");
                 startActivity(intent);
-                myDialog.dismiss();
             }
         });
-
-        keluar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                myDialog.dismiss();
-            }
-        });
-
-        myDialog.show();
     }
 
     private void initCollapsingToolbar() {

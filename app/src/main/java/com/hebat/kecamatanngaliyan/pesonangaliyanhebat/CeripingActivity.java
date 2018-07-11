@@ -1,6 +1,5 @@
 package com.hebat.kecamatanngaliyan.pesonangaliyanhebat;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.design.widget.AppBarLayout;
@@ -10,13 +9,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
 public class CeripingActivity extends AppCompatActivity {
 
-    FloatingActionButton fabSnackContact;
-    Dialog myDialog;
-    Button simpan, keluar;
+    FloatingActionButton fabCripingMap;
+    TextView textViewCripingContact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,43 +26,25 @@ public class CeripingActivity extends AppCompatActivity {
 
         initCollapsingToolbar();
 
-        fabSnackContact = (FloatingActionButton) findViewById(R.id.fab_ceriping_contact);
-        fabSnackContact.setOnClickListener(new View.OnClickListener() {
+        textViewCripingContact = (TextView) findViewById(R.id.textview_criping_contact);
+        textViewCripingContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MyCustomAlertDialog();
-            }
-        });
-    }
-
-    public void MyCustomAlertDialog() {
-        myDialog = new Dialog(CeripingActivity.this);
-        myDialog.setContentView(R.layout.dialog_contact_snack);
-        myDialog.setTitle("My Custom Dialog");
-
-        simpan = (Button) myDialog.findViewById(R.id.simpan);
-        keluar = (Button) myDialog.findViewById(R.id.keluar);
-
-        simpan.setEnabled(true);
-        keluar.setEnabled(true);
-
-        simpan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "089697177144", null));
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "081325415735", null));
                 startActivity(intent);
-                myDialog.dismiss();
             }
         });
 
-        keluar.setOnClickListener(new View.OnClickListener() {
+        fabCripingMap = (FloatingActionButton) findViewById(R.id.fab_ceriping_map);
+        fabCripingMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                myDialog.dismiss();
+                Uri gmmIntentUri = Uri.parse("geo:0,0?q=Home Industri Tempe Kedelai(jelita)");
+                Intent intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                intent.setPackage("com.google.android.apps.maps");
+                startActivity(intent);
             }
         });
-
-        myDialog.show();
     }
 
     private void initCollapsingToolbar() {
